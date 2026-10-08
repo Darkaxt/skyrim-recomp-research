@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "input_sha256": "846efccf0c1374d71f892907f46549560f2fcb0a75cb87a3eed438baa0f1402f",
+  "pcrecomp_commit": "0a138b6ba423af7dd1d6955fb763dc2bfd2b058e",
+  "gates": {
+    "projection-compare": {
+      "status": "pass",
+      "trials": 255600,
+      "accepted": 182268,
+      "rejected": 73332,
+      "fixture_cases": 1775,
+      "alias_layouts": 9,
+      "fp_modes": 16,
+      "abi_preservation": true,
+      "guard_pages": true,
+      "permitted_writes": true,
+      "unwind_recovery": true,
+      "median_original_ns": 5.4865,
+      "median_reconstructed_ns": 49.1085
+    },
+    "dispatch-stock": {
+      "status": "pass",
+      "trials": 405504,
+      "value_cases": 88,
+      "flag_combinations": 32,
+      "indices": [
+        0,
+        1,
+        163
+      ],
+      "callback_modes": [
+        "return_only",
+        "mutate_flags",
+        "replace_global_table"
+      ],
+      "fp_modes": 16,
+      "guard_pages": true,
+      "fixture_bytes_and_callback_trace": true,
+      "real_engine_receiver": false
+    },
+    "frustum-cleanup": {
+      "status": "pass",
+      "serial_trials": 57344,
+      "camera_fixtures": 512,
+      "fp_modes": 16,
+      "sequence_steps": 7,
+      "loader_tls": true,
+      "contending_threads": 6,
+      "waiters": 5,
+      "constructors_per_initialization": 6,
+      "original_msvc_cleanup_and_retry": true,
+      "reconstruction_cleanup_and_retry": true,
+      "injected_exception_positions": 6,
+      "concurrency_scope": "one immutable camera, same frame",
+      "game_launched": false
+    },
+    "frustum-cleanup-disabled": {
+      "expected_failure_verified": true,
+      "guard": -1
+    },
+    "lookup": {
+      "status": "pass",
+      "trials": 1336,
+      "table_entries": 164,
+      "exact_trace": true,
+      "guard_pages": true,
+      "real_crt": true
+    },
+    "crc": {
+      "status": "pass",
+      "buffer_trials": 20340,
+      "integer_trials": 1564,
+      "routines": 4,
+      "seeds": 6,
+      "alignments": 16,
+      "patterns": 5,
+      "guard_pages": true,
+      "max_length": 65536
+    }
+  },
+  "game_launched": false
+}

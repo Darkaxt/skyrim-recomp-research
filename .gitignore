@@ -1,0 +1,13 @@
+local/
+__pycache__/
+*.pyc
+*.exe
+*.dll
+*.pack
+*.obj
+*.pdb
+*.lib
+*.exp
+*.gpr
+*.rep/
+candidate-generated.*
