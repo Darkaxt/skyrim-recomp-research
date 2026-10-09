@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "input_sha256": "846efccf0c1374d71f892907f46549560f2fcb0a75cb87a3eed438baa0f1402f",
+  "summary": {
+    "status": "pass",
+    "normal_workflows": 120,
+    "failure_workflows": 28,
+    "partial_cleanup_retry_workflows": 56,
+    "read_checks": 1300,
+    "mapper_checks": 376,
+    "abi_calls": 3844,
+    "api_calls": 2641,
+    "real_native_apis": true,
+    "guard_pages": true,
+    "two_relocated_mappings": true,
+    "reversed_pack_order": true,
+    "game_launched": false
+  },
+  "trace_counts": {
+    "rows": 2640,
+    "workflows": 204,
+    "created_and_closed_handles": 236,
+    "api_counts": {
+      "CreateFileA": 260,
+      "GetFileSizeEx": 172,
+      "ReadFile": 1304,
+      "SetFilePointerEx": 636,
+      "CloseHandle": 236,
+      "GetLastError": 32
+    },
+    "ownership_reconciled": true
+  },
+  "scope": "native oracle only; translation NOT STARTED"
+}

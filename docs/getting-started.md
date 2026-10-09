@@ -53,3 +53,10 @@ committed or distributed.
 The [acceptance criteria](next-slices-spec.md) and
 [measured results](next-slices-results.md) describe what the gates prove and
 their limits. See [third-party notices](../THIRD_PARTY_NOTICES.md) for provenance.
+
+## Native file-object workflow
+
+After the original gates pass, run the commands in the [recovery guide](recovery.md)
+to recreate and verify the native file oracle. This gate uses the tracked
+range/hash manifest, not a private Ghidra database. It does not yet translate
+the connected path.

@@ -1,0 +1,165 @@
+{
+  "input_sha256": "846efccf0c1374d71f892907f46549560f2fcb0a75cb87a3eed438baa0f1402f",
+  "image_base": "0x140000000",
+  "functions": [
+    {
+      "entry_rva": "0xec0190",
+      "role": "default_initialize",
+      "end_rva": "0xec01a2",
+      "bytes": 18,
+      "instructions": 4,
+      "code_sha256": "635cc9c8ad271d7071288d86b6c25b0aa0e86490a599abc575b287a2105d4443",
+      "unwind": null
+    },
+    {
+      "entry_rva": "0xebfd70",
+      "role": "initialize_and_open",
+      "end_rva": "0xebfdab",
+      "bytes": 59,
+      "instructions": 16,
+      "code_sha256": "e546fa4a7620604a1808f7d1c94f89464d480c5a3074e2a5abb1aa253266e5b7",
+      "unwind": {
+        "rva": "0x1f2b0e8",
+        "size": 8,
+        "flags": 0,
+        "sha256": "fdf0640bbf89f462866d68a5aac2a1747ef56d7910f44c5b72c1e41741b64828"
+      }
+    },
+    {
+      "entry_rva": "0xec0410",
+      "role": "open",
+      "end_rva": "0xec057d",
+      "bytes": 365,
+      "instructions": 105,
+      "code_sha256": "8e3142ba6474c97d2d75265c4b7aeed11ff5566b67259bebf3e570f0c6deab67",
+      "unwind": {
+        "rva": "0x1f2b214",
+        "size": 24,
+        "flags": 0,
+        "sha256": "807c61abf206210c139ead803fca4216810e7a86447b48431a1d7576e5d1933f"
+      }
+    },
+    {
+      "entry_rva": "0xec0590",
+      "role": "read",
+      "end_rva": "0xec05f6",
+      "bytes": 102,
+      "instructions": 29,
+      "code_sha256": "60417f7d4f49c3a4386e2d932e918dcd090242a02917f49227ff2685757ee4fe",
+      "unwind": {
+        "rva": "0x1f2b22c",
+        "size": 8,
+        "flags": 0,
+        "sha256": "fdf0640bbf89f462866d68a5aac2a1747ef56d7910f44c5b72c1e41741b64828"
+      }
+    },
+    {
+      "entry_rva": "0xec0670",
+      "role": "seek",
+      "end_rva": "0xec06cb",
+      "bytes": 91,
+      "instructions": 28,
+      "code_sha256": "89b5473db7b9fa719f32b4b38a8b364f3dfca6e55e57da4e74db5d990c4f815c",
+      "unwind": {
+        "rva": "0x1f2b23c",
+        "size": 8,
+        "flags": 0,
+        "sha256": "eb874a2d5756386f3a7d463290a08f132ac00fa4e4080cfb811bafc05b2569b2"
+      }
+    },
+    {
+      "entry_rva": "0xec0710",
+      "role": "size",
+      "end_rva": "0xec074e",
+      "bytes": 62,
+      "instructions": 19,
+      "code_sha256": "b80c00a017d983ccfdb02db40af17c5923de433fb38fedcf920bdf2c8c10b627",
+      "unwind": {
+        "rva": "0x1f2b24c",
+        "size": 8,
+        "flags": 0,
+        "sha256": "eb874a2d5756386f3a7d463290a08f132ac00fa4e4080cfb811bafc05b2569b2"
+      }
+    },
+    {
+      "entry_rva": "0xec01b0",
+      "role": "transfer_construct",
+      "end_rva": "0xec01d6",
+      "bytes": 38,
+      "instructions": 13,
+      "code_sha256": "76c2cd30a1c961d7a8cca44708383cd6a69922db69ca38a6cfd045c8d0f64930",
+      "unwind": {
+        "rva": "0x1f2b1ac",
+        "size": 8,
+        "flags": 0,
+        "sha256": "eb874a2d5756386f3a7d463290a08f132ac00fa4e4080cfb811bafc05b2569b2"
+      }
+    },
+    {
+      "entry_rva": "0xebff00",
+      "role": "reset_source",
+      "end_rva": "0xebff0b",
+      "bytes": 11,
+      "instructions": 2,
+      "code_sha256": "6c4600f8002da427b53d6b2e3902c0c3ea9f7be3938f4e8bdd40a5db9ad0da38",
+      "unwind": null
+    },
+    {
+      "entry_rva": "0xec0990",
+      "role": "invalidate_handle",
+      "end_rva": "0xec0999",
+      "bytes": 9,
+      "instructions": 2,
+      "code_sha256": "9af9adae148509899fce94065bdc56e576a0fc912ab589ebf00ebbba1d1ecbba",
+      "unwind": null
+    },
+    {
+      "entry_rva": "0xec0960",
+      "role": "close",
+      "end_rva": "0xec0987",
+      "bytes": 39,
+      "instructions": 11,
+      "code_sha256": "35cb93d54970132a92163bd42bbef2336c3be476832ad86d7cfe855b392bd81a",
+      "unwind": {
+        "rva": "0x1f2b2f8",
+        "size": 8,
+        "flags": 0,
+        "sha256": "eb874a2d5756386f3a7d463290a08f132ac00fa4e4080cfb811bafc05b2569b2"
+      }
+    },
+    {
+      "entry_rva": "0xec4de0",
+      "role": "map_error",
+      "end_rva": "0xec4e26",
+      "bytes": 70,
+      "instructions": 20,
+      "code_sha256": "a6a67ad754465bea3a028dbf5dee62709fd095afbed42e564f90154cdc8dc460",
+      "unwind": null
+    }
+  ],
+  "tables": [
+    {
+      "role": "error_target_rvas",
+      "rva": "0xec4e28",
+      "bytes": 24,
+      "sha256": "a92f3d6e6d199782f6035f54db7449e7b3003d5b7d9622196d359862b9b95afd"
+    },
+    {
+      "role": "error_selector",
+      "rva": "0xec4e40",
+      "bytes": 184,
+      "sha256": "0a1ec369dd35fd1fe0ebb277b19684170f2f11b5cf77b15bae9a4d3d40b43753"
+    }
+  ],
+  "code_bytes": 864,
+  "embedded_table_bytes": 208,
+  "native_apis": [
+    "CloseHandle",
+    "CreateFileA",
+    "GetFileSizeEx",
+    "GetLastError",
+    "ReadFile",
+    "SetFilePointerEx"
+  ],
+  "provenance": "F04-001 verified metadata only; instruction/table bytes are extracted from locally supplied input and never embedded here."
+}

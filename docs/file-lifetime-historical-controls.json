@@ -1,0 +1,25 @@
+{
+  "phase": "before_fix",
+  "header_sha256": "46c95f842f37ecba5a0d2d1df160045803e4bee483d43d03b18d4b7c88d9408f",
+  "runs": [
+    {
+      "mode": "mixed",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Mixed code/data page lost RX permission\n"
+    },
+    {
+      "mode": "wx",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Required invalid-pack rejection missing\n"
+    },
+    {
+      "mode": "truncated",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Rejected construction leaked reserved image\n"
+    }
+  ],
+  "provenance": "Historical F04-002 pre-repair loader reproduction; not a claim that old failures were rerun by the current verifier."
+}

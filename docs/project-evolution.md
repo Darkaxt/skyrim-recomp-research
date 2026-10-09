@@ -49,3 +49,16 @@ public export; private manual-candidate runners are omitted.
 Next research should test genuinely new boundaries, such as nested cleanup and
 object ownership, before drawing conclusions about larger engine subsystems.
 Those are future research directions, not claims delivered by these gates.
+
+## Connected file ownership oracle
+
+F04-001 selected a real 11-entry file-object closure. F04-002 now verifies its
+native read-only open/size/read/seek/transfer/close workflow, including real OS
+failures and early cleanup/retry. The shared sparse loader now combines page
+permissions across pieces and releases failed mappings; existing automatic gates
+still pass. A corrupted-read control is rejected and actual handle release is
+independently reconciled. See [results and lessons](file-lifetime-native.md).
+
+The extraction metadata is tracked, so a fresh checkout can reproduce the native
+oracle from the pinned executable without the private analysis database.
+Automatic translation of this connected path remains NOT STARTED (C01-001).

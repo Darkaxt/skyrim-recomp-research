@@ -1,0 +1,39 @@
+domain,group,name,function_records,record_instruction_count,record_body_bytes,body_union_bytes,bounded_harness_entries,planned_import_entries,full_domain_size
+F01,Foundations,Instruction semantics and calling conventions,0,0,0,0,0,0,NOT_ESTIMATED
+F02,Foundations,"Startup, initialization and shutdown",0,0,0,0,0,0,NOT_ESTIMATED
+F03,Foundations,"CRT, exceptions, RTTI and TLS",1,2,12,12,1,301,NOT_ESTIMATED
+F04,Foundations,"Allocation, pools and object lifetime",11,1136,4200,4200,0,0,NOT_ESTIMATED
+F05,Foundations,"Containers, strings, hashing and math",9,808,2985,2985,4,0,NOT_ESTIMATED
+F06,Foundations,"Jobs, synchronization, time and random state",3,108,411,411,0,0,NOT_ESTIMATED
+F07,Foundations,"Object model, handles, factories and virtual dispatch",12,688,2695,2695,0,0,NOT_ESTIMATED
+C01,Content,"Files, archives and resource streams",3,259,897,897,0,0,NOT_ESTIMATED
+C02,Content,"Plugin records, FormIDs and load order",17,1974,7906,7906,0,0,NOT_ESTIMATED
+C03,Content,Asset decoding and caches,0,0,0,0,0,0,NOT_ESTIMATED
+W01,World,"Cells, references, streaming and LOD",49,5152,19002,19002,0,0,NOT_ESTIMATED
+W02,World,"Terrain, vegetation, water and world geometry",5,1810,7365,7365,0,0,NOT_ESTIMATED
+W03,World,"Weather, climate, lighting and world time",12,1148,4521,4521,0,0,NOT_ESTIMATED
+S01,Simulation,"Actors, values, movement and process state",99,9131,35339,35339,2,0,NOT_ESTIMATED
+S02,Simulation,"AI, perception, packages and navigation",19,2257,8844,8844,0,0,NOT_ESTIMATED
+S03,Simulation,"Combat, magic, perks, effects and projectiles",60,6156,23996,23996,0,0,NOT_ESTIMATED
+S04,Simulation,"Inventory, equipment, crafting, economy and progression",40,7067,26891,26891,0,0,NOT_ESTIMATED
+S05,Simulation,"Quests, dialogue, scenes, factions and crime",16,1739,6314,6314,0,0,NOT_ESTIMATED
+S06,Simulation,"Animation, behavior graphs, skeletons and skinning",20,1197,4564,4564,0,0,NOT_ESTIMATED
+S07,Simulation,"Physics, collision, ragdolls and character controllers",25,1570,6164,6164,0,0,NOT_ESTIMATED
+S08,Simulation,"Papyrus VM, bytecode and native bindings",0,0,0,0,0,0,NOT_ESTIMATED
+S09,Simulation,"Events, callbacks, conditions and console commands",21,1322,5699,5699,0,0,NOT_ESTIMATED
+P01,Presentation,"Scene graph, transforms, cameras and visibility bounds",17,952,3994,3994,6,0,NOT_ESTIMATED
+P02,Presentation,"Renderer preparation, materials and draw ordering",19,642,2721,2721,0,0,NOT_ESTIMATED
+P03,Presentation,"GPU resources, shaders, command submission and presentation",0,0,0,0,0,11,NOT_ESTIMATED
+P04,Presentation,"UI, Scaleform/ActionScript, menus, text and localization",43,4197,16996,16996,0,0,NOT_ESTIMATED
+P05,Presentation,"Audio, music, dialogue, spatial sound and lip sync",22,935,3392,3392,0,2,NOT_ESTIMATED
+P06,Presentation,"Input, window events, controls and camera interaction",11,477,1832,1832,0,15,NOT_ESTIMATED
+P07,Presentation,Video playback and movie integration,0,0,0,0,0,9,NOT_ESTIMATED
+D01,Persistence,"Save/load, serialization and versioned state",8,773,3217,3217,0,0,NOT_ESTIMATED
+X01,Platform,"OS APIs, runtime imports and dynamic libraries",0,0,0,0,0,212,NOT_ESTIMATED
+X02,Platform,"Steam, achievements, Creations and online services",0,0,0,0,0,56,NOT_ESTIMATED
+M01,Compatibility,"Data, script, asset and UI mods",0,0,0,0,0,0,NOT_ESTIMATED
+M02,Compatibility,"SKSE, native DLL plugins, hooks and binary patches",0,0,0,0,0,0,NOT_ESTIMATED
+M03,Compatibility,"Renderer injectors, shader extensions and engine-fix behavior",0,0,0,0,0,0,NOT_ESTIMATED
+T01,Tooling,"Creation Kit, launchers, compilers and developer tools",0,0,0,0,0,0,NOT_ESTIMATED
+T02,Tooling,"QA, diagnostics, builds and reproducibility",0,0,0,0,0,0,NOT_ESTIMATED
+U00,Unknown,Unassigned code/data and dynamically discovered behavior,175459,5682742,22673618,22673618,0,0,NOT_ESTIMATED

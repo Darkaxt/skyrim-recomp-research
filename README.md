@@ -25,6 +25,15 @@ not yet demonstrate a complete engine subsystem or a playable replacement.
 The [results and reusable solutions](docs/next-slices-results.md) explain the
 challenges, repairs and limits of each experiment.
 
+The connected file-object workflow now has a verified native oracle: real file
+reads/seeks, handle transfer, failure cleanup and retry. Its generated translation
+is the next task. See [current progress](docs/progress.md) and the
+[native results](docs/file-lifetime-native.md).
+
+The [engine map](docs/engine-coverage-map.md), [measured sizes](docs/engine-sizes.md)
+and [effort assessment](docs/engine-effort.md) describe the broader target and
+remaining uncertainty. The [recovery guide](docs/recovery.md) explains restoration.
+
 ## Research direction
 
 The next work is to connect these proofs into larger workflows: allocation and

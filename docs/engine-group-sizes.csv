@@ -1,0 +1,11 @@
+group,function_records,record_instruction_count,record_body_bytes,body_union_bytes,bounded_harness_entries,planned_import_entries,full_group_size
+Foundations,36,2742,10303,10303,5,301,NOT_ESTIMATED
+Content,20,2233,8803,8803,0,0,NOT_ESTIMATED
+World,66,8110,30888,30888,0,0,NOT_ESTIMATED
+Simulation,300,30439,117811,117811,2,0,NOT_ESTIMATED
+Presentation,112,7203,28935,28935,6,37,NOT_ESTIMATED
+Persistence,8,773,3217,3217,0,0,NOT_ESTIMATED
+Platform,0,0,0,0,0,268,NOT_ESTIMATED
+Compatibility,0,0,0,0,0,0,NOT_ESTIMATED
+Tooling,0,0,0,0,0,0,NOT_ESTIMATED
+Unknown,175459,5682742,22673618,22673618,0,0,NOT_ESTIMATED
