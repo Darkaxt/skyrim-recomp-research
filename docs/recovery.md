@@ -46,6 +46,9 @@ backup of the original game, mod collections or saves. The original pinned game
 build must be supplied separately if it can no longer be obtained from Steam.
 
 A remote backup protects against local disk loss. Only revisions that have
-actually been pushed are recoverable there. Daily research still uses its
-documented publication policy; a one-time snapshot does not guarantee that
-subsequent unpushed local work is backed up.
+actually been pushed are recoverable there. The owner authorized a private
+recovery checkpoint after each completed daily task. Incremental archives retain
+changed evidence and deletions over the verified full baseline; unchanged Ghidra
+data is reused. The restore command reconstructs the latest checkpoint state.
+Public publication remains separate. An interrupted or unsuccessful backup must
+be reported explicitly; unpushed work is still exposed to local disk loss.
